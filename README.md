@@ -4,6 +4,11 @@ Forked Feb 20th 2024
 
 Removed ssl flag, now works on python 3.10
 
+Usage example 
+```
+python elasticsearch_loader.py --index incidents --type incident json *.json
+```
+
 ## Main features
 
 -   Batch upload CSV (actually any \*SV) files to Elasticsearch
